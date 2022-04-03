@@ -1,5 +1,36 @@
 body {
-  width: 700px;
+  width: 500px;
   margin: auto;
   padding: 20px;
+}
+
+input[type=text] {
+  width: 400px;
+  padding: 5px;
+}
+
+#add-task-btn {
+  padding: 5px 10px;
+  background: green;
+  color: white;
+}
+
+.task-div {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 5px;
+  
+}
+
+.task-div span {
+  flex: 1;
+}
+
+.task-div button {
+  background: red;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
 }
